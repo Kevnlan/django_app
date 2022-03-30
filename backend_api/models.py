@@ -9,10 +9,7 @@ class Employees(models.Model):
     email = models.EmailField(max_length=100)
     phone = models.CharField(max_length=100)
     department = models.CharField(max_length=100)
-    salary = models.IntegerField()
+    salary = models.DecimalField(decimal_places=2, max_digits=10)
     bio = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return self.name

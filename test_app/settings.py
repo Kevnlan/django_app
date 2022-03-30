@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'articles.urls'
+ROOT_URLCONF = 'test_app.urls'
 
 TEMPLATES = [
     {
@@ -100,7 +100,7 @@ DATABASES = {
     }
 }
 
-# #local development db
+#local development db
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
