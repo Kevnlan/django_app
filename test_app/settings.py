@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY =  config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'test_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'backendDB', 
-        'USER': 'postgres', 
-        'PASSWORD': '#Polerity99',
-        'HOST': '127.0.0.1', 
+        'NAME': 'd9qjjuigssghcb', 
+        'USER': 'qhlfbitmdzstob', 
+        'PASSWORD': '2a8ddf92ba09f7cefb641d5bc5396e5ad4f2f277427ce7e8039ab44e61814462',
+        'HOST': 'ec2-3-229-161-70.compute-1.amazonaws.com', 
         'PORT': '5432',
     }
 }
